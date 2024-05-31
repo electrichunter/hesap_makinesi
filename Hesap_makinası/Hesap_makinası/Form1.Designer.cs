@@ -222,6 +222,7 @@
             this.btn_bol.TabIndex = 12;
             this.btn_bol.Text = "/";
             this.btn_bol.UseVisualStyleBackColor = true;
+            this.btn_bol.Click += new System.EventHandler(this.btn_bol_Click);
             // 
             // button2
             // 
