@@ -32,7 +32,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btn_2 = new System.Windows.Forms.Button();
             this.btn_3 = new System.Windows.Forms.Button();
-            this.btn_toplam = new System.Windows.Forms.Button();
             this.esittir_btn = new System.Windows.Forms.Button();
             this.eksi_btn = new System.Windows.Forms.Button();
             this.btn_6 = new System.Windows.Forms.Button();
@@ -47,6 +46,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.işlem_lbl = new System.Windows.Forms.Label();
             this.geçmiş2_lbl = new System.Windows.Forms.Label();
+            this.btn_toplam = new System.Windows.Forms.Button();
+            this.kare_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Ekran_tbox
@@ -91,17 +92,6 @@
             this.btn_3.Text = "3";
             this.btn_3.UseVisualStyleBackColor = true;
             this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
-            // 
-            // btn_toplam
-            // 
-            this.btn_toplam.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_toplam.Location = new System.Drawing.Point(449, 185);
-            this.btn_toplam.Name = "btn_toplam";
-            this.btn_toplam.Size = new System.Drawing.Size(108, 108);
-            this.btn_toplam.TabIndex = 4;
-            this.btn_toplam.Text = "+";
-            this.btn_toplam.UseVisualStyleBackColor = true;
-            this.btn_toplam.Click += new System.EventHandler(this.btn_toplam_Click);
             // 
             // esittir_btn
             // 
@@ -258,12 +248,35 @@
             this.geçmiş2_lbl.TabIndex = 15;
             this.geçmiş2_lbl.Text = "0";
             // 
+            // btn_toplam
+            // 
+            this.btn_toplam.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_toplam.Location = new System.Drawing.Point(449, 185);
+            this.btn_toplam.Name = "btn_toplam";
+            this.btn_toplam.Size = new System.Drawing.Size(108, 108);
+            this.btn_toplam.TabIndex = 4;
+            this.btn_toplam.Text = "+";
+            this.btn_toplam.UseVisualStyleBackColor = true;
+            this.btn_toplam.Click += new System.EventHandler(this.btn_toplam_Click);
+            // 
+            // kare_btn
+            // 
+            this.kare_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kare_btn.Location = new System.Drawing.Point(589, 597);
+            this.kare_btn.Name = "kare_btn";
+            this.kare_btn.Size = new System.Drawing.Size(108, 108);
+            this.kare_btn.TabIndex = 16;
+            this.kare_btn.Text = "√x";
+            this.kare_btn.UseVisualStyleBackColor = true;
+            this.kare_btn.Click += new System.EventHandler(this.kare_btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
-            this.ClientSize = new System.Drawing.Size(641, 740);
+            this.ClientSize = new System.Drawing.Size(797, 740);
+            this.Controls.Add(this.kare_btn);
             this.Controls.Add(this.geçmiş2_lbl);
             this.Controls.Add(this.işlem_lbl);
             this.Controls.Add(this.button2);
@@ -296,7 +309,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn_2;
         private System.Windows.Forms.Button btn_3;
-        private System.Windows.Forms.Button btn_toplam;
         private System.Windows.Forms.Button esittir_btn;
         private System.Windows.Forms.Button eksi_btn;
         private System.Windows.Forms.Button btn_6;
@@ -311,6 +323,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label işlem_lbl;
         private System.Windows.Forms.Label geçmiş2_lbl;
+        private System.Windows.Forms.Button btn_toplam;
+        private System.Windows.Forms.Button kare_btn;
     }
 }
 

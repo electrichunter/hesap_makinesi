@@ -8,3 +8,13 @@ C:\Users\ouysa\git\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.csp
 C:\Users\ouysa\git\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.csproj.CoreCompileInputs.cache
 C:\Users\ouysa\git\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.exe
 C:\Users\ouysa\git\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.pdb
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\bin\Debug\Hesap_makinası.exe.config
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\bin\Debug\Hesap_makinası.exe
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\bin\Debug\Hesap_makinası.pdb
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.csproj.AssemblyReference.cache
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.Form1.resources
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.Properties.Resources.resources
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.csproj.GenerateResource.cache
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.csproj.CoreCompileInputs.cache
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.exe
+C:\Users\ouysa\hesap_makinesi\Hesap_makinası\Hesap_makinası\obj\Debug\Hesap_makinası.pdb

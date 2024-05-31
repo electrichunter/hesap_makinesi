@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Hesap_makinası
 {
@@ -273,5 +275,31 @@ namespace Hesap_makinası
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kare_btn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Kullanıcının girdiği sayıyı oku
+                double number = double.Parse(Ekran_tbox.Text);
+
+                // Sayının karekökünü hesapla
+                double karekok = Math.Sqrt(number);
+
+                // Sonucu göster
+                Ekran_tbox.Text = $"Karekök: {karekok}";
+            }
+            catch (FormatException)
+            {
+                // Kullanıcı geçersiz bir giriş yaptığında
+                MessageBox.Show("Lütfen geçerli bir sayı girin.", "Geçersiz Giriş", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
-}
+    }
+
