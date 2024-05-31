@@ -42,7 +42,7 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0" )Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "1";
-            geçmiş_lbl.Text += "1";
+            işlem_lbl.Text += "1";
         }
 
         private void btn_toplam_Click(object sender, EventArgs e)
@@ -50,14 +50,14 @@ namespace Hesap_makinası
              _islem = '+';
              _clear=true;
              _sayi1 =Convert.ToInt32(Ekran_tbox.Text);
-            geçmiş_lbl.Text += "+";
+            işlem_lbl.Text += "+";
         }
 
         private void esittir_btn_Click(object sender, EventArgs e)
         {
             int sayi2 = Convert.ToInt32(Ekran_tbox.Text);
             int sonuc;
-            geçmiş_lbl.Text = " ";
+            işlem_lbl.Text = " ";
 
             switch ( _islem)
             {
@@ -117,7 +117,7 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "2";
-            geçmiş_lbl.Text += "2";
+            işlem_lbl.Text += "2";
         }
 
         private void btn_3_Click(object sender, EventArgs e)
@@ -131,7 +131,7 @@ namespace Hesap_makinası
 
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
-            geçmiş_lbl.Text += "3";
+            işlem_lbl.Text += "3";
             Ekran_tbox.Text += "3";
         }
 
@@ -140,7 +140,7 @@ namespace Hesap_makinası
             _islem = '-';
             _clear = true;
             _sayi1 = Convert.ToInt32(Ekran_tbox.Text);
-            geçmiş_lbl.Text += "-";
+            işlem_lbl.Text += "-";
         }
 
         private void btn_4_Click(object sender, EventArgs e)
@@ -155,7 +155,7 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "4";
-            geçmiş_lbl.Text += "4";
+            işlem_lbl.Text += "4";
         }
 
         private void btn_5_Click(object sender, EventArgs e)
@@ -170,7 +170,7 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "5";
-            geçmiş_lbl.Text += "5";
+            işlem_lbl.Text += "5";
         }
 
         private void btn_6_Click(object sender, EventArgs e)
@@ -185,7 +185,7 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "6";
-            geçmiş_lbl.Text += "6";
+            işlem_lbl.Text += "6";
         }
 
         private void btn_7_Click(object sender, EventArgs e)
@@ -200,7 +200,7 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "7";
-            geçmiş_lbl.Text += "7";
+            işlem_lbl.Text += "7";
         }
 
         private void btn_8_Click(object sender, EventArgs e)
@@ -213,7 +213,7 @@ namespace Hesap_makinası
 
 
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
-            geçmiş_lbl.Text += "8";
+            işlem_lbl.Text += "8";
             Ekran_tbox.Text += "8";
         }
 
@@ -229,7 +229,7 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "9";
-            geçmiş_lbl.Text += "9";
+            işlem_lbl.Text += "9";
         }
 
         private void btn_0_Click(object sender, EventArgs e)
@@ -243,7 +243,7 @@ namespace Hesap_makinası
 
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
-            Ekran_tbox.Text += "0"; geçmiş_lbl.Text += "0";
+            Ekran_tbox.Text += "0"; işlem_lbl.Text += "0";
         }
 
         private void btn_carp_Click(object sender, EventArgs e)
@@ -251,7 +251,7 @@ namespace Hesap_makinası
             _islem = '*';
             _clear = true;
             _sayi1 = Convert.ToInt32(Ekran_tbox.Text);
-            geçmiş_lbl.Text += "*";
+            işlem_lbl.Text += "*";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -265,7 +265,7 @@ namespace Hesap_makinası
             _islem = '/';
             _clear = true;
             _sayi1 = Convert.ToInt32(Ekran_tbox.Text);
-            geçmiş_lbl.Text += "/";
+            işlem_lbl.Text += "/";
 
         }
 
