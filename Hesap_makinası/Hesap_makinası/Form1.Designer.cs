@@ -211,6 +211,7 @@
             this.btn_carp.TabIndex = 11;
             this.btn_carp.Text = "x";
             this.btn_carp.UseVisualStyleBackColor = true;
+            this.btn_carp.Click += new System.EventHandler(this.btn_carp_Click);
             // 
             // btn_bol
             // 
@@ -232,6 +233,7 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "C";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 

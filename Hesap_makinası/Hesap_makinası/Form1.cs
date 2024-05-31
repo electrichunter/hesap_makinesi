@@ -59,7 +59,9 @@ namespace Hesap_makinası
                 case '-':
                     sonuc = _sayi1 - sayi2;
                     break;
-
+                case '*':
+                    sonuc = _sayi1 * sayi2;
+                    break;
 
                 default:
                     sonuc = 0;
@@ -201,6 +203,18 @@ namespace Hesap_makinası
             if (Ekran_tbox.Text == "0") Ekran_tbox.Text = "";
 
             Ekran_tbox.Text += "0";
+        }
+
+        private void btn_carp_Click(object sender, EventArgs e)
+        {
+            _islem = '*';
+            _clear = true;
+            _sayi1 = Convert.ToInt32(Ekran_tbox.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Ekran_tbox.Text = " ";
         }
     }
 }
