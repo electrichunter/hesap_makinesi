@@ -216,5 +216,10 @@ namespace Hesap_makinası
         {
             Ekran_tbox.Text = " ";
         }
+
+        private void btn_bol_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
