@@ -271,22 +271,15 @@ namespace Hesap_makinası
 
         }
 
-        private void geçmiş_lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void kare_btn_Click(object sender, EventArgs e)
         {
             try
             {
+                
                 // Kullanıcının girdiği sayıyı oku
                 double number = double.Parse(Ekran_tbox.Text);
+
+                
 
                 // Sayının karekökünü hesapla
                 double karekok = Math.Sqrt(number);
@@ -298,6 +291,16 @@ namespace Hesap_makinası
             {
                 // Kullanıcı geçersiz bir giriş yaptığında
                 MessageBox.Show("Lütfen geçerli bir sayı girin.", "Geçersiz Giriş", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void Ekran_tbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            List<char> _sayi = new List<char> { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',',' };
+
+            if (!_sayi.Contains(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

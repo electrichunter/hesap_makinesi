@@ -54,11 +54,13 @@
             // 
             this.Ekran_tbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Ekran_tbox.Location = new System.Drawing.Point(47, 125);
-            this.Ekran_tbox.Multiline = true;
             this.Ekran_tbox.Name = "Ekran_tbox";
-            this.Ekran_tbox.Size = new System.Drawing.Size(510, 44);
+            this.Ekran_tbox.Size = new System.Drawing.Size(510, 45);
             this.Ekran_tbox.TabIndex = 0;
+            this.Ekran_tbox.Text = "0";
+            this.Ekran_tbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.Ekran_tbox.TextChanged += new System.EventHandler(this.Ekran_tbox_TextChanged);
+            this.Ekran_tbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Ekran_tbox_KeyPress);
             // 
             // button1
             // 
@@ -236,7 +238,6 @@
             this.işlem_lbl.Name = "işlem_lbl";
             this.işlem_lbl.Size = new System.Drawing.Size(0, 38);
             this.işlem_lbl.TabIndex = 14;
-            this.işlem_lbl.Click += new System.EventHandler(this.geçmiş_lbl_Click);
             // 
             // geçmiş2_lbl
             // 
